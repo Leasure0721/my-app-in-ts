@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import TabSelector from './TabSelector'; // 导入Tab选择器组件
-import PageContent from './PageContent'; // 导入页面内容组件
+import TabSelector from './TabSelector'; 
+import PageContent from './PageContent'; 
 
 // 定义选项卡的名称数组
 const tabs = ['Tab 1'];
@@ -27,5 +27,4 @@ const ParentComponent: React.FC = () => {
   );
 };
 
-// 导出父组件
 export default ParentComponent;
