@@ -3,7 +3,7 @@ import TabSelector from './TabSelector'; // 导入Tab选择器组件
 import PageContent from './PageContent'; // 导入页面内容组件
 
 // 定义选项卡的名称数组
-const tabs = ['Tab 1', 'Tab 2', 'Tab 3'];
+const tabs = ['Tab 1'];
 
 // 定义父组件
 const ParentComponent: React.FC = () => {
@@ -22,8 +22,6 @@ const ParentComponent: React.FC = () => {
       <div style={{ width: '100%', marginTop: '20px' }}>
         {/* 根据selectedTab的值渲染不同的PageContent组件 */}
         {selectedTab === 'Tab 1' && <PageContent content="Content for Tab 1" />}
-        {selectedTab === 'Tab 2' && <PageContent content="Content for Tab 2" />}
-        {selectedTab === 'Tab 3' && <PageContent content="Content for Tab 3" />}
       </div>
     </div>
   );
