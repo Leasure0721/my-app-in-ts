@@ -90,7 +90,7 @@ const TabSelector: React.FC<TabSelectorProps> = ({ tabs, onTabChange }) => {
           backgroundColor: 'white', // 白色方框的背景颜色
           borderRadius: '5px', 
           boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)', // 白色方框的阴影效果
-          transition: 'transform 0.3s ease, width 0.3s ease', // 白色方框位置和宽度变化的过渡效果
+          transition: 'transform 0.5s ease, width 0.5s ease', // 白色方框位置和宽度变化的过渡效果
           zIndex: 0 // 设置层级，确保白色方框在按钮之下
         }}
       />
